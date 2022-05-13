@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+ <title>
+ Code Page
+ </title>
+ <head>
+     <link rel="stylesheet" href="css.css">
+ </head>
+ <body>
+ <h1>
+     Here's the code for the fizzbuzz thing I forgot to turn in. Whoops:
+ </h1>
+ <code>
+     function fizzbuzz() {
+         var display = document.getElementById('display');
+         var displayHTML = "";
+         for (i = 0; i < 100; i++) {
+             displayHTML += "<p>" + i + "</p>";
+
+             if(i % 3== 0 && i % 5==0)
+             {
+                 displayHTML+= "FizzBuzz";
+             }
+
+             else if(i% 3 == 0 )
+             {
+                 displayHTML += "Fizz";
+             }
+             else if(i % 5 == 0)	
+             {
+                 displayHTML+= "Buzz";
+             }
+
+             else{
+                 continue;
+             }
+
+         }
+
+         display.innerHTML = displayHTML
+ </code>
+ <p></p>
+ </body> 

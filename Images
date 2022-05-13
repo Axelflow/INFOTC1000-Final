@@ -9,10 +9,10 @@ Images Page
 <body>
 <h1>Below are two various images that I have displayed on this page. One is hosted within the github repo, while the other is a source I have found online. This shows that I am able to display images in Markdown</h1>
 <h1>Image #1 can be viewed here</h1>
-<img src = "Bagel meme.png" alt = "Beach">
+<img src = "Bagel meme.png" alt = "Bagel Meme">
 <h2>This image is hosted directly in the Github Repo.</h2>
 <h1>Image #2 can be viewed here</h1>
-<img src = "https://ibb.co/QMVC1Kh" alt = "Space">
+<img src = "https://ibb.co/QMVC1Kh" alt = "Same Bagel Meme, actually">
 <h2>This image is not in the Repo, instead it is hosted on a website.</h2>
 <h4><a href= "file:///C:/Users/Gages/OneDrive/Desktop/IT1000FINAL/README.html">Click here to return to the previous page</h4>
 </body>
